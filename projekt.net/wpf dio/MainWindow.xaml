@@ -1,0 +1,153 @@
+﻿<Window x:Name="wdMain" x:Class="wpf_dio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_dio"
+        mc:Ignorable="d"
+        xmlns:rs="clr-namespace:wpf_dio.Langs"
+        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing"
+    
+         
+        >
+    <!-- xmlns:rs="clr-namespace:wpf_dio.Langs" gore u window -->
+    <!-- {x:Static rs:lang.MainWindow_Bars_Representation}npr u contente(ovaj je za representation u tabitemu prvi) sam promjenit imena ne radi jel neki wierd bug koj ubi projekt radi -->
+   
+        <Grid Background="LightGray">
+        <TabControl x:Name="tb_tabs">
+            <TabItem Header="{x:Static rs:lang.MainWindow_Bars_Representation}" FontSize="15">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <ComboBox x:Name="cb_favRep" HorizontalAlignment="Center"  VerticalAlignment="Top" Width="120" VerticalContentAlignment="Center" SelectionChanged="cb_favRep_SelectionChanged" Grid.Row="1" Grid.Column="1"/>
+                    <ComboBox x:Name="cb_other" HorizontalAlignment="Center"  VerticalAlignment="Top" Width="120" VerticalContentAlignment="Center" SelectionChanged="cb_other_SelectionChanged" Grid.Row="1" Grid.Column="4"/>
+                    <Label Content="{x:Static rs:lang.MainWindow_Reps_lblHomeTeam}" HorizontalAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Center" Grid.Row="1" Grid.Column="0"/>
+                    <Label Content="{x:Static rs:lang.MainWindow_Reps_lblOtherTeam}" HorizontalAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Top" Grid.Row="1" Grid.Column="3">
+                        <Label.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Label.RenderTransform>
+                    </Label>
+                    <Label x:Name="lblScore" Content="{x:Static rs:lang.MainWindow_Reps_lblScore}" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="2" />
+                    <Button Content="{x:Static rs:lang.MainWindow_Reps_btnInfo}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="3" Grid.Column="2"  Click="Button_info_click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="{x:Static rs:lang.MainWindow_Bars_TeamMembers}" FontSize="15">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/teren.jpg"/>
+                    </Grid.Background>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <local:igrac x:Name="Home1" Grid.Column="0" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Home2" Grid.Column="1" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Home3" Grid.Column="1" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Home4" Grid.Column="1" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Home5" Grid.Column="2" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Home6" Grid.Column="2" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Home7" Grid.Column="2" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Home8" Grid.Column="2" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Home9" Grid.Column="2" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Top"/>
+                    <local:igrac x:Name="Home10" Grid.Column="3" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+                    <local:igrac x:Name="Home11" Grid.Column="3" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Top"/>
+
+                    <local:igrac x:Name="Other1" Grid.Column="9" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Other2" Grid.Column="8" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Other3" Grid.Column="8" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Other4" Grid.Column="8" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Other5" Grid.Column="7" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Other6" Grid.Column="7" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Other7" Grid.Column="7" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Other8" Grid.Column="7" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Top"/>
+                    <local:igrac  x:Name="Other9" Grid.Column="7" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Top"/>
+                    <local:igrac x:Name="Other10" Grid.Column="6" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+                    <local:igrac x:Name="Other11" Grid.Column="6" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Top"/>
+                   
+
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="{x:Static rs:lang.MainWindow_Bars_Settings}" FontSize="15" HorizontalAlignment="Center" Height="26" VerticalAlignment="Bottom">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+
+                    <StackPanel  HorizontalAlignment="Center" VerticalAlignment="Top"  Grid.Row="1" Grid.Column="1">
+                        <Label Content="{x:Static rs:lang.MainWindow_Settings_lblRep}" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        <RadioButton Content="{x:Static rs:lang.MainWindow_Settings_rbRepF}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Height="21" Checked="RadioButton_Rep_F_Checked"/>
+                        <RadioButton Content="{x:Static rs:lang.MainWindow_Settings_rbRepM}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Height="22" Checked="RadioButton_Rep_M_Checked"/>
+
+                    </StackPanel>
+
+                    <StackPanel  HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1">
+                        <Label Content="{x:Static rs:lang.MainWindow_Settings_lblLang}" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+                        <RadioButton Content="HR" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="20" Height="22" Checked="RadioButton_Lang_HR_Checked"/>
+                        <RadioButton Content="EN" HorizontalAlignment="Center"  VerticalAlignment="Center" FontSize="20" Height="21" Checked="RadioButton_Lang_EN_Checked"/>
+                    </StackPanel>
+                    <StackPanel  HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1">
+                        <Label Content="{x:Static rs:lang.MainWindow_Settings_lblRes}" FontSize="30" FontWeight="Bold"/>
+                        <ComboBox  Name="cb_settings_resolution" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="152" SelectionChanged="ComboBox_Settings_SelectionChanged">
+
+                            <ComboBoxItem Content="Fullscreen"/>
+                            <ComboBoxItem Content="1800x1040"/> 
+                            <ComboBoxItem Content="1600x900"/>
+                            <ComboBoxItem Content="3840x2160"/>
+
+                        </ComboBox>
+                    </StackPanel>
+
+
+                    <Button Content="{x:Static rs:lang.MainWindow_Settings_btnConfirm}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Background="#FF6EAF3A" Click="Button_Settings_Click" Height="31" Width="75" Grid.Row="4" Grid.Column="1" Margin="0,15,0,0"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+       
+    </Grid>
+    
+</Window>

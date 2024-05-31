@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "wpf dio/1.0.0": {
+        "dependencies": {
+          "DAL": "1.0.0",
+          "FormsProject": "1.0.0"
+        },
+        "runtime": {
+          "wpf dio.dll": {}
+        },
+        "resources": {
+          "en/wpf dio.resources.dll": {
+            "locale": "en"
+          },
+          "hr/wpf dio.resources.dll": {
+            "locale": "hr"
+          }
+        }
+      },
+      "DAL/1.0.0": {
+        "runtime": {
+          "DAL.dll": {}
+        }
+      },
+      "FormsProject/1.0.0": {
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "runtime": {
+          "FormsProject.exe": {}
+        },
+        "resources": {
+          "en/FormsProject.resources.dll": {
+            "locale": "en"
+          },
+          "hr/FormsProject.resources.dll": {
+            "locale": "hr"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "wpf dio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FormsProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

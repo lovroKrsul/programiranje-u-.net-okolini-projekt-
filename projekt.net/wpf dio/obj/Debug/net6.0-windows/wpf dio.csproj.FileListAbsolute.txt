@@ -1,0 +1,96 @@
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\wpf dio.exe
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\wpf dio.deps.json
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\wpf dio.runtimeconfig.json
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\wpf dio.dll
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\wpf dio.pdb
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio.csproj.AssemblyReference.cache
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\StartingWindow.g.cs
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio_MarkupCompile.cache
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio_MarkupCompile.lref
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\StartingWindow.baml
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio.g.resources
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio.AssemblyInfoInputs.cache
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio.AssemblyInfo.cs
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio.csproj.CoreCompileInputs.cache
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio.dll
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\refint\wpf dio.dll
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio.pdb
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio.genruntimeconfig.cache
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\ref\wpf dio.dll
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\DAL.dll
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\FormsProject.exe
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\DAL.pdb
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\FormsProject.pdb
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\FormsProject.exe.config
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\Newtonsoft.Json.xml
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\en\FormsProject.resources.dll
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\hr\FormsProject.resources.dll
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio.csproj.CopyComplete
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\InfoWindow.g.cs
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\InfoWindow.baml
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\igrac.g.cs
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\igrac.baml
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio.csproj.AssemblyReference.cache
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\igrac.g.cs
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\InfoWindow.g.cs
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\StartingWindow.g.cs
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio_MarkupCompile.cache
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio_MarkupCompile.lref
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio.dll
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\refint\wpf dio.dll
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio.pdb
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\wpf dio.exe
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\wpf dio.deps.json
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\wpf dio.runtimeconfig.json
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\wpf dio.dll
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\wpf dio.pdb
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\DAL.dll
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\FormsProject.exe
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\DAL.pdb
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\FormsProject.pdb
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\FormsProject.exe.config
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\Newtonsoft.Json.xml
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\en\FormsProject.resources.dll
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\hr\FormsProject.resources.dll
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\igrac.baml
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\InfoWindow.baml
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\StartingWindow.baml
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio.g.resources
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio.AssemblyInfoInputs.cache
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio.AssemblyInfo.cs
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio.csproj.CoreCompileInputs.cache
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio.csproj.CopyComplete
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio.genruntimeconfig.cache
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\ref\wpf dio.dll
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\en\wpf dio.resources.dll
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\bin\Debug\net6.0-windows\hr\wpf dio.resources.dll
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf_dio.Langs.lang.resources
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf_dio.Langs.lang.en.resources
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf_dio.Langs.lang.hr.resources
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\wpf dio.csproj.GenerateResource.cache
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\en\wpf dio.resources.dll
+C:\Users\THEMAN\source\repos\projekt.net2\wpf dio\obj\Debug\net6.0-windows\hr\wpf dio.resources.dll
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\en\wpf dio.resources.dll
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\bin\Debug\net6.0-windows\hr\wpf dio.resources.dll
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf_dio.Langs.lang.resources
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf_dio.Langs.lang.en.resources
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf_dio.Langs.lang.hr.resources
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\wpf dio.csproj.GenerateResource.cache
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\en\wpf dio.resources.dll
+C:\Users\THEMAN\source\repos\projekt.net\wpf dio\obj\Debug\net6.0-windows\hr\wpf dio.resources.dll

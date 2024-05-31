@@ -1,0 +1,69 @@
+﻿<Window x:Class="wpf_dio.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_dio"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800" Foreground="White" Background="White" ResizeMode="NoResize">
+    <Grid Background="White">
+
+        <Grid.Triggers >
+            <EventTrigger RoutedEvent="Loaded">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation From="0" To="1" Duration="0:0:0.5" Storyboard.TargetProperty="Opacity">
+
+                        </DoubleAnimation>
+                        <ColorAnimation From="Black" To="LightGray" Duration="0:0:0.3" Storyboard.TargetProperty="Background.Color"></ColorAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+
+            </EventTrigger>
+        </Grid.Triggers>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel  Grid.Row="0" Grid.Column="0">
+            <Label Content="Ime" />
+            <Label Content="not found" Name="lblName"/>
+        </StackPanel>
+
+        <StackPanel  Grid.Row="0" Grid.Column="1">
+            <Label Content="broj"/>
+            <Label Content="not found" Name="lblNumber"/>
+        </StackPanel>
+        <StackPanel  Grid.Row="1" Grid.Column="0" Width="100" Height="100" HorizontalAlignment="Stretch">
+            <StackPanel.Background>
+                <ImageBrush Stretch="Uniform"/>
+            </StackPanel.Background>
+            <Image Name="imgPic"/>
+        </StackPanel>
+        <StackPanel  Grid.Row="2" Grid.Column="0">
+            <Label Content="Position" />
+            <Label Content="not found" Name="lblPos"/>
+        </StackPanel>
+        <StackPanel  Grid.Row="2" Grid.Column="1">
+            <Label Content="Captain" />
+            <Label Content="not found" Name="lblCap"/>
+        </StackPanel>
+        <StackPanel  Grid.Row="3" Grid.Column="0">
+            <Label Content="Goals" />
+            <Label Content="not found" Name="lblGoal"/>
+        </StackPanel>
+        <StackPanel  Grid.Row="3" Grid.Column="1">
+            <Label Content="Yellows" />
+            <Label Content="not found" Name="lblYellow"/>
+        </StackPanel>
+
+
+
+    </Grid>
+</Window>

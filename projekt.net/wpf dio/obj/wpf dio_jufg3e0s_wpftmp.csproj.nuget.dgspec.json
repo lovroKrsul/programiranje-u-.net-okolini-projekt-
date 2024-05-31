@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\wpf dio\\wpf dio.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\DAL\\DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\DAL\\DAL.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\FormsProject\\FormsProject.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\FormsProject\\FormsProject.csproj",
+        "projectName": "FormsProject",
+        "projectPath": "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\FormsProject\\FormsProject.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\wpf dio\\wpf dio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\wpf dio\\wpf dio.csproj",
+        "projectName": "wpf dio",
+        "projectPath": "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\wpf dio\\wpf dio.csproj",
+        "packagesPath": "C:\\Users\\THEMAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\wpf dio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\THEMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\FormsProject\\FormsProject.csproj": {
+                "projectPath": "C:\\Users\\THEMAN\\source\\repos\\projekt.net2\\FormsProject\\FormsProject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Haley.MVVM": {
+              "target": "Package",
+              "version": "[6.2.18, )"
+            },
+            "Haley.WPF": {
+              "target": "Package",
+              "version": "[5.2.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

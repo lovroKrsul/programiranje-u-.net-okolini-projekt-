@@ -1,0 +1,68 @@
+﻿<Window x:Class="wpf_dio.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_dio"
+        mc:Ignorable="d"
+        xmlns:rs="clr-namespace:wpf_dio.Langs"
+        Title="InfoWindow" Height="600" Width="800" ResizeMode="NoResize">
+    <Grid x:Name="Grid_info" Height="600" OpacityMask="Black">
+        <Grid.Triggers >
+            <EventTrigger RoutedEvent="Loaded">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation From="0" To="1" Duration="0:0:0.5" Storyboard.TargetProperty="Opacity">
+                            
+                        </DoubleAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+
+            </EventTrigger>
+        </Grid.Triggers>
+        <StackPanel Margin="0,0,400,0" HorizontalAlignment="Center">
+            <Label Content="{x:Static rs:lang.InfoWindow_lblHomeCountry}" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Center"/>
+            <Label x:Name="lbl_fav_country" Content="not found" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWindow_lblHomeCode}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Label x:Name="lbl_fav_code" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWindow_lblHomePlayed}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_fav_played" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWIndow_lblHomeWins}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_fav_wins" Content="not found" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWindow_lblHomeLosses}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_fav_losses" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWIndow_lblHomeDraws}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_fav_draws" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWIndow_lblHomeGoalsScored}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_fav_scored" Content="not found" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWindow_lblHomeGoalsTaken}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_fav_taken" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWindow_lblHomeGoalsDiff}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_fav_dif" Content="not found" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </StackPanel>
+        <StackPanel Margin="400,0,0,0">
+            <Label Content="{x:Static rs:lang.InfoWindow_lblOtherCountry}" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Center"/>
+            <Label x:Name="lbl_other_country" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWindow_lblOtherCode}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Label x:Name="lbl_other_code" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWindow_lblOtherPlayed}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_other_played" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWIndow_lblOtherWins}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_other_wins" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWindow_lblOtherLosses}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_other_losses" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWIndow_lblOtherDraws}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_other_draws" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWIndow_lblOtherGoalsScored}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_other_scored" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWindow_lblOtherGoalsTaken}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_other_taken" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label Content="{x:Static rs:lang.InfoWindow_lblOtherGoalsDiff}" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            <Label x:Name="lbl_other_dif" Content="not found" HorizontalAlignment="Center"  VerticalAlignment="Center" Margin="0,0,5,0" Background="Transparent"/>
+        </StackPanel>
+
+
+
+
+    </Grid>
+</Window>
